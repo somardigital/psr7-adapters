@@ -2,14 +2,15 @@
 
 namespace Robbie\Psr7\Tests;
 
-use Robbie\Psr7\HttpRequestAdapter;
+use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
+use Robbie\Psr7\HttpRequestAdapter;
 use SilverStripe\Control\HTTPRequest;
 
 /**
  * @package psr7-adapters
  */
-class HttpRequestAdapterTest extends \PHPUnit_Framework_TestCase
+class HttpRequestAdapterTest extends TestCase
 {
     /**
      * {@inheritDoc}
